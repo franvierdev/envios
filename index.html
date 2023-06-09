@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <title>envios</title>
+  </head>
+  <body
+    class="font-lexend"
+    style="
+      background-image: linear-gradient(
+          to right bottom,
+          rgba(209, 113, 53, 0.35),
+          rgba(49, 150, 81, 0.422)
+        ),
+        url(alexander-grey-8lnbXtxFGZw-unsplash.jpg);
+      height: 100vh;
+      background-size: cover;
+      background-position: center;
+    "
+  >
+    <div class="container bg-success pb-2 pt-2" style="--bs-bg-opacity: 0.5">
+      <h1
+        class="fw-bold text-center display-3 text-warning"
+        style="text-shadow: 0px 4px 5px #000000"
+      >
+        ¡Hola! Cambios
+      </h1>
+      <h6
+        class="text-center text-warning"
+        style="text-shadow: 0px 2px 5px #000000"
+      >
+        con la mejor tasa del mercado
+      </h6>
+    </div>
+    <div>
+      <p
+        id="fecha"
+        class="text-center pt-3 pb-3 fs-4 text-light"
+        style="text-shadow: 0px 4px 5px #000000"
+      ></p>
+      <div
+        class="d-flex gap-3 justify-content-center ms-4"
+        style="padding-left: 0.2rem"
+      >
+        <p class="border rounded-3 ps-1 pe-1 fs-3 bg-secondary-subtle shadow">
+          1 Dolar
+        </p>
+        <p
+          class="ps-1 pe-1 fs-3 text-white"
+          style="text-shadow: 0px 4px 5px #000000"
+        >
+          =
+        </p>
+        <input type="text" id="Dolar" value=" Bs" class=" border rounded-3 mb-3 fs-3 bg-primary-subtle shadow" onkeypress="this.style.width = ((this.value.length + 8) * 8) + 'px';" style="height: auto; width: 7rem;">
+        </input>
+        
+      </div>
+      <div
+        class="d-flex gap-3 justify-content-center ms-4"
+        style="padding-left: 0.4rem"
+      >
+        <p class="border rounded-3 ps-1 pe-1 fs-3 bg-secondary-subtle shadow">
+          1 Sol
+        </p>
+        <p
+          class="ps-1 pe-1 fs-3 text-white"
+          style="text-shadow: 0px 4px 5px #000000"
+        >
+          =
+        </p>
+        <input type="text" id="Sol" value=" Bs" class=" border rounded-3 mb-3 fs-3 bg-primary-subtle shadow" onkeypress="this.style.width = ((this.value.length + 7) * 8) + 'px';" style="height: auto; width: 7rem;">
+        </input>
+      </div>
+      <div
+        class="d-flex gap-3 justify-content-center"
+        style="padding-right: 2.7rem"
+      >
+        <p class="border rounded-3 ps-1 pe-1 fs-3 bg-secondary-subtle shadow">
+          1,000 COP
+        </p>
+        <p
+          class="ps-1 pe-1 fs-3 text-white"
+          style="text-shadow: 0px 4px 5px #000000"
+        >
+          =
+        </p>
+        <input type="text" id="Cop" value=" Bs" class=" border rounded-3 mb-3 fs-3 bg-primary-subtle shadow" onkeypress="this.style.width = ((this.value.length + 7) * 8) + 'px';" style="height: auto; width: 7rem;">
+        </input>
+      </div>
+      <div class="d-flex justify-content-center gap-3 pt-3 mt-3">
+        <img src="imgs/peru.png" alt="..." style="height: 3rem" />
+        <p
+          class="ps-1 pe-1 fs-3 pt-2 text-white fw-bold"
+          style="text-shadow: 0px 4px 5px #000000"
+        >
+          &RightArrowLeftArrow;
+        </p>
+        <img src="imgs/venezuela.png" alt="..." style="height: 3rem" />
+        <p
+          class="ps-1 pe-1 fs-3 pt-2 text-white fw-bold"
+          style="text-shadow: 0px 4px 5px #000000"
+        >
+          &RightArrowLeftArrow;
+        </p>
+        <img src="imgs/colombia.png" alt="..." style="height: 3rem" />
+      </div>
+      <div class="logos container pt-4">
+        <div class="d-flex justify-content-center gap-4 pb-2">
+          <img
+            class="bg-light rounded-3 p-1"
+            src="imgs/thumbnail(2).png"
+            alt="..."
+            style="height: 3rem; --bs-bg-opacity: 0.8"
+          />
+          <img
+            class="bg-primary rounded-3 p-1"
+            src="imgs/logo-bcp.png"
+            alt="..."
+            style="height: 2rem; --bs-bg-opacity: 0.8"
+          />
+          <p class="mt-1 text-white" style="text-shadow: 0px 4px 5px #000000">
+            transferencias
+          </p>
+          <img
+            class="bg-light rounded-3 p-1"
+            src="imgs/logovzla.png"
+            alt=""
+            style="height: 2rem; --bs-bg-opacity: 0.8"
+          />
+        </div>
+        <div class="d-flex justify-content-center gap-4 ms-4">
+          <img
+            class="rounded-3 ps-2 pe-2 pt-1 pb-1 bg-light"
+            src="imgs/daviplata-logo-7B75E8A895-seeklogo.com.png"
+            alt=""
+            style="height: 3rem; --bs-bg-opacity: 0.8"
+          />
+          <img
+            class="rounded-circle ps-2 pe-2 pt-1 pb-1 bg-light"
+            src="imgs/logo.png"
+            alt=""
+            style="height: 3rem; --bs-bg-opacity: 0.8"
+          />
+          <p class="mt-3 text-white" style="text-shadow: 0px 4px 5px #000000">
+            pago movil
+          </p>
+          <img
+            class="bg-light rounded-3 ps-1 pe-1 pb-1"
+            src="imgs/pngwing.png"
+            alt=""
+            style="height: 3rem; --bs-bg-opacity: 0.8"
+          />
+        </div>
+
+        <div id="carouselExample" class="carousel slide mt-3">
+          <div class="carousel-inner  ">
+            <div class="carousel-item d-flex gap-2 justify-content-center active bg-success pt-4" style=" --bs-bg-opacity: 0.8">
+              
+              <img src="imgs/whatsapp_icon-icons.com_62756.png" class="d-block " alt="..." style="height: 30px; ">
+            
+            
+              <p
+            class="text-light fs-4 pb-5"
+            style="text-shadow: 0px 4px 5px #000000"
+          >
+            +58 412-156.55.59
+          </p>
+            </div>
+
+            <div class="carousel-item bg-success"  >
+            <div class="d-flex justify-content-center gap-3 pt-4">
+              <img src="imgs/whatsapp_icon-icons.com_62756.png" class="d-block" alt="..."style="height: 30px; ">  <p
+              class="text-light fs-4 pb-5"
+              style="text-shadow: 0px 4px 5px #000000"
+            >
+              +57 322-281.36.32
+            </p>
+          </div>
+            </div>
+            <div class="carousel-item  bg-success" >
+              <div>
+              <p class="d-flex justify-content-center text-warning fs-4 pt-2"  style="text-shadow: 0px 2px 5px #000000; 
+            ; margin-top: -10px;">Trabajando para ustedes 😌</p>
+              </div>
+              <div class="d-flex justify-content-center gap-3">
+              <img src="imgs/whatsapp_icon-icons.com_62756.png" class="d-block" alt="..."style="height: 30px; margin-top:-1rem  ">  <p
+              class="text-light fs-4 mb-5"
+              style="text-shadow: 0px 4px 5px #000000; margin-top: 
+              -20px;"
+            >
+            +58 424-512.87.19
+            </p>
+          </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+          <button onclick="{Calcular()}"> Calcular </button>
+        </div>
+
+        
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    const dia = [
+      "Domingo",
+      "Lunes",
+      "Martes",
+      "Miercoles",
+      "Jueves",
+      "Viernes",
+      "Sabado",
+    ];
+    const meses = [
+      "Enero",
+      "Febrero",
+      "Marzo",
+      "Abril",
+      "Mayo",
+      "Junio",
+      "Julio",
+      "Agosto",
+      "Septiembre",
+      "Octubre",
+      "Noviembre",
+      "Diciembre",
+    ];
+ 
+    let fecha = [document.getElementById("fecha")];
+    let Dolar = [document.getElementById("Dolar")].value;
+    let Sol = [document.getElementById("Sol")];
+    let Cop = [document.getElementById("Cop")];
+  
+function Calcular(e) {
+  e.preventdefault();
+
+
+
+
+function 
+Calcular (e) {
+  e.preventdefault()
+  return console.log(Dolar)
+}
+  
+}
+
+  
+    
+    var f = new Date();
+    fecha.forEach((el) => {
+      el.innerHTML =
+        dia[f.getDay()] +
+        " " +
+        f.getDate() +
+        " de " +
+        meses[f.getMonth()] +
+        " de " +
+        f.getFullYear();
+    });
+  </script>
+</html>
